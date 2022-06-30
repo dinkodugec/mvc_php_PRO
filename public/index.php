@@ -36,3 +36,8 @@ $router->add('{controller}/{action}');
 $router->add('{controller}/{id:\d+}/{action}');
     
 $router->dispatch($_SERVER['QUERY_STRING']);
+
+/* RewriteEngine On
+RewriteCond %{REQUEST_URI} !public/
+RewriteRule (.*) public/$1 [L] 
+ */
