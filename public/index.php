@@ -40,7 +40,3 @@ $router->add('admin/{controller}/{action}', ['namespace' => 'Admin']);
     
 $router->dispatch($_SERVER['QUERY_STRING']);
 
-/* RewriteEngine On
-RewriteCond %{REQUEST_URI} !public/
-RewriteRule (.*) public/$1 [L] 
- */
