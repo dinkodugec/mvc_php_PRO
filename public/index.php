@@ -6,9 +6,11 @@
  * 
  */
 
-// Require the controller class
-//require '../App/Controllers/Posts.php';
-
+/**
+ * Twig
+ */
+require_once dirname(__DIR__) . '/vendor/Twig/lib/Twig/Autoloader.php';
+Twig_Autoloader::register();
 /**
  * Autoloader
  */
