@@ -9,7 +9,7 @@
 /**
  * Twig
  */
-require_once dirname(__DIR__) . '/vendor/Autoload.php';
+require_once '../vendor/Autoload.php';
 
 /**
  * Autoloader
