@@ -42,12 +42,12 @@ class Home extends \Core\Controller
     {
         /*
         View::render('Home/index.php', [
-            'name'    => 'Dave',
+            'name'    => 'Dinko',
             'colours' => ['red', 'green', 'blue']
         ]);
         */
         View::renderTemplate('Home/index.html', [
-            'name'    => 'Dave',
+            'name'    => 'Dinko',
             'colours' => ['red', 'green', 'blue']
         ]);
     }
