@@ -32,11 +32,12 @@ class Config
      * Database password
      * @var string
      */
-    const DB_PASSWORD = 'secret';
+    const DB_PASSWORD = '';
 
      /**
      * Show or hide error messages on screen
      * @var boolean
      */
-    const SHOW_ERRORS = false;
+    /* const SHOW_ERRORS = false;   //user mode */ 
+    const SHOW_ERRORS = true;   //dev mode
 }

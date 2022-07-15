@@ -29,6 +29,11 @@ error_reporting(E_ALL); //to see very single error
 set_error_handler('Core\Error::errorHandler');
 set_exception_handler('Core\Error::exceptionHandler');
 
+/* 
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !public/
+RewriteRule (.*) public/$1 [L] 
+  */
 
 /**
  * Routing

@@ -22,7 +22,7 @@ class Post
         $host = 'localhost';
         $dbname = 'mvc_pro';
         $username = 'root';
-        $password = 'secret';
+        $password = '';
     
         try {
             $db = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8",
